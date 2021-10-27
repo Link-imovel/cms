@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "name": "seo",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "metaImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
