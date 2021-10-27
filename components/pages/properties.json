@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_properties_properties",
+  "info": {
+    "name": "properties",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.buttons"
+    },
+    "custom": {
+      "type": "json"
+    }
+  }
+}

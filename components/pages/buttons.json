@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pages_buttons",
+  "info": {
+    "name": "buttons",
+    "icon": "caret-square-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}
