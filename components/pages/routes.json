@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pages_routes",
+  "info": {
+    "name": "routes",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "previous": {
+      "type": "string"
+    },
+    "next": {
+      "type": "string"
+    }
+  }
+}
